@@ -6,6 +6,30 @@ release_platforms:
   ubuntu:
   - focal
 repositories:
-  
+  mesh_tools:
+    doc:
+      type: git
+      url: https://github.com/uos/mesh_tools.git
+      version: master
+    release:
+      packages:
+      - hdf5_map_io
+      - label_manager
+      - mesh_msgs
+      - mesh_msgs_conversions
+      - mesh_msgs_hdf5
+      - mesh_msgs_transform
+      - mesh_tools
+      - rviz_map_plugin
+      - rviz_mesh_plugin
+      tags:
+        release: release/nr-noetic/{package}/{version}
+      url: https://github.com/naturerobots-gbp/mesh_tools-release.git
+      version: 1.0.1-1
+    source:
+      type: git
+      url: https://github.com/uos/mesh_tools.git
+      version: master
+    status: developed
 type: distribution
 version: 2
