@@ -25,7 +25,7 @@ repositories:
       tags:
         release: release/nr-noetic/{package}/{version}
       url: https://github.com/naturerobots-gbp/mesh_tools-release.git
-      version: 1.0.1-1
+      version: 1.0.1-2
     source:
       type: git
       url: https://github.com/uos/mesh_tools.git
