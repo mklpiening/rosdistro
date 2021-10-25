@@ -23,9 +23,9 @@ repositories:
       - rviz_map_plugin
       - rviz_mesh_plugin
       tags:
-        release: release/nr-noetic/{package}/{version}
-      url: https://github.com/naturerobots-gbp/mesh_tools-release.git
-      version: 1.0.1-2
+        release: release/noetic/{package}/{version}
+      url: https://github.com/uos-gbp/mesh-tools.git
+      version: 1.0.1-1
     source:
       type: git
       url: https://github.com/uos/mesh_tools.git
@@ -33,3 +33,5 @@ repositories:
     status: developed
 type: distribution
 version: 2
+tags:
+- nr-noetic
