@@ -31,6 +31,12 @@ repositories:
       url: https://github.com/uos/mesh_tools.git
       version: master
     status: developed
+  protobuf:
+    source:
+      type: git
+      url: git@github.com:naturerobots/protobuf.git
+      version: master
+    status: maintained
 type: distribution
 version: 2
 tags:
