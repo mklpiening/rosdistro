@@ -34,7 +34,7 @@ repositories:
   protobuf:
     source:
       type: git
-      url: git@github.com:naturerobots/protobuf.git
+      url: https://github.com/naturerobots/protobuf.git
       version: master
     status: maintained
 type: distribution
