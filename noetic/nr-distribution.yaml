@@ -33,8 +33,6 @@ repositories:
     status: developed
   protobuf:
     release:
-      packages:
-      - protobuf
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/naturerobots-gbp/protobuf-release.git
