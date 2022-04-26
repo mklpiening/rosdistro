@@ -32,10 +32,17 @@ repositories:
       version: master
     status: developed
   protobuf:
+    release:
+      packages:
+      - protobuf
+      tags:
+        release: release/noetic/{package}/{version}
+      url: https://github.com/naturerobots-gbp/protobuf-release.git
+      version: 3.20.0-1
     source:
       type: git
       url: https://github.com/naturerobots/protobuf.git
-      version: master
+      version: main
     status: maintained
 type: distribution
 version: 2
